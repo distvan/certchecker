@@ -1,7 +1,7 @@
 The CertChecker class helps to detect a domain SSL certification expiration.
 It sends a notification emails when checking failed or need a cert update.
 
-###Usage:
+### Usage:
 
 - Put the domain names into the domain.txt (every line should containt one domain name).
 - Install dependencies running compose comand.
