@@ -97,6 +97,11 @@ class CertChecker
      */
     protected function getExpirationDate($domain)
     {
+        if(empty($domain))
+        {
+            return 0;
+        }
+
         $get = stream_context_create(
             array(
                 "ssl" => array(
